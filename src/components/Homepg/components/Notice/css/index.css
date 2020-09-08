@@ -1,0 +1,11 @@
+.Notic {
+  width: 100vw;
+  height: 3.12rem;
+  padding-bottom: 0.18rem;
+  background: whitesmoke;
+}
+
+.Notic a img {
+  width: 100%;
+  height: 100%;
+}

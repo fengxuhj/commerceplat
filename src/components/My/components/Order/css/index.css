@@ -1,0 +1,28 @@
+.orders {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.9rem;
+  padding: 0 0.6rem 0 .35rem;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.orders .title {
+  font-size: .31rem;
+}
+
+.orders .all_orders a {
+  display: block;
+  font-size: .28rem;
+  color: #212121;
+}
+
+.orders .all_orders a i {
+  margin-top: -0.16rem;
+  position: absolute;
+  top: 50%;
+  right: 0.2rem;
+  color: #777;
+  font-size: .32rem;
+}

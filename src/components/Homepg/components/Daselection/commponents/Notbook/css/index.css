@@ -1,0 +1,84 @@
+.Notbook {
+  width: 100%;
+}
+
+.Notbook .Notbook_Selected {
+  height: 4.95rem;
+  padding-bottom: 0.05rem;
+}
+
+.Notbook .Notbook_Selected a img {
+  width: 100%;
+  height: 4.90rem;
+}
+
+.Notbook .Notbook_list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Notbook .Notbook_list li {
+  width: 3.98rem;
+}
+
+.Notbook .Notbook_list li a {
+  width: 100%;
+}
+
+.Notbook .Notbook_list li a .Notbook_list_pic img {
+  width: 100%;
+  height: 4rem;
+}
+
+.Notbook .Notbook_list li a .Notbook_list_int {
+  padding: 0.25rem 0.29rem;
+  text-align: start;
+}
+
+.Notbook .Notbook_list li a .Notbook_list_int p:nth-child(1) {
+  line-height: 0.46rem;
+  font-size: 0.32rem;
+  color: #212121;
+}
+
+.Notbook .Notbook_list li a .Notbook_list_int p:nth-child(2) {
+  line-height: 0.36rem;
+  font-size: 0.25rem;
+  color: #757575;
+}
+
+.Notbook .Notbook_list li a .Notbook_list_int p:nth-child(3) {
+  font-weight: bold;
+  font-size: 0.26rem;
+  color: #ea625b;
+}
+
+.Notbook .Notbook_list li a .Notbook_list_int p:nth-child(3) span {
+  font-size: 0.23rem;
+}
+
+.Notbook .Notbook_Moreprdu {
+  width: 100%;
+  height: 1.14rem;
+  border-top: 0.01rem solid #cecece;
+}
+
+.Notbook .Notbook_Moreprdu p {
+  font-size: 0.32rem;
+  line-height: 1.13rem;
+  text-align: center;
+  color: #666666;
+}
+
+.Notbook .Notbook_activity {
+  width: 100%;
+  padding: 0.18rem 0;
+  background: whitesmoke;
+}
+
+.Notbook .Notbook_activity a img {
+  width: 100%;
+  height: 3.11rem;
+}

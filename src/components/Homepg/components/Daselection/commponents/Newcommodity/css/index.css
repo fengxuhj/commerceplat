@@ -1,0 +1,84 @@
+.Newcomm {
+  width: 100%;
+}
+
+.Newcomm .Newcomm_Selected {
+  height: 4.95rem;
+  padding-bottom: 0.05rem;
+}
+
+.Newcomm .Newcomm_Selected a img {
+  width: 100%;
+  height: 4.90rem;
+}
+
+.Newcomm .Newcomm_list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Newcomm .Newcomm_list li {
+  width: 3.98rem;
+}
+
+.Newcomm .Newcomm_list li a {
+  width: 100%;
+}
+
+.Newcomm .Newcomm_list li a .Newcomm_list_pic img {
+  width: 100%;
+  height: 4rem;
+}
+
+.Newcomm .Newcomm_list li a .Newcomm_list_int {
+  padding: 0.25rem 0.29rem;
+  text-align: start;
+}
+
+.Newcomm .Newcomm_list li a .Newcomm_list_int p:nth-child(1) {
+  line-height: 0.46rem;
+  font-size: 0.33rem;
+  color: #212121;
+}
+
+.Newcomm .Newcomm_list li a .Newcomm_list_int p:nth-child(2) {
+  line-height: 0.36rem;
+  font-size: 0.25rem;
+  color: #757575;
+}
+
+.Newcomm .Newcomm_list li a .Newcomm_list_int p:nth-child(3) {
+  font-weight: bold;
+  font-size: 0.26rem;
+  color: #ea625b;
+}
+
+.Newcomm .Newcomm_list li a .Newcomm_list_int p:nth-child(3) span {
+  font-size: 0.23rem;
+}
+
+.Newcomm .Newcomm_Moreprdu {
+  width: 100%;
+  height: 1.14rem;
+  border-top: 0.01rem solid #cecece;
+}
+
+.Newcomm .Newcomm_Moreprdu p {
+  font-size: 0.32rem;
+  line-height: 1.13rem;
+  text-align: center;
+  color: #666666;
+}
+
+.Newcomm .Newcomm_activity {
+  width: 100%;
+  padding: 0.18rem 0;
+  background: whitesmoke;
+}
+
+.Newcomm .Newcomm_activity a img {
+  width: 100%;
+  height: 3.11rem;
+}

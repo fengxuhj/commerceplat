@@ -1,0 +1,204 @@
+
+.Shopping_wares{
+    width: 100vw;
+    // height: 2.59rem;
+    height: auto;
+    border-bottom: 0.05rem solid #9c9393;
+   
+    .Shopping_wares_kong{
+        width: 100%;
+        // height: ;
+        padding: 0.2rem;
+        background: #ebebeb;
+
+        .kong_a{
+            // display: block;
+            height: 1.44rem;
+            font-size: .3rem;
+            text-decoration: none;
+            margin-left: 1.2rem;
+
+            .kong_a_l{
+                display: inline-block;
+                line-height: .8rem;
+                background: url("../../../img/3.png") no-repeat 0;
+                background-size: auto 100%;
+                padding: 0 .16rem 0 .96rem;
+                color: rgba(0,0,0,.27);
+            }
+            .kong_a_r{
+                display: inline-block;
+                border: 1px solid rgba(0,0,0,.15);
+                box-sizing: border-box;
+                // height: .8rem;
+                line-height: .6rem;
+                padding: 0 .2rem;
+                color: rgba(0,0,0,.87);
+                font-style: normal;
+            }
+        }
+        
+    }
+
+
+    ul{
+        width: 100%;
+        // overflow: hidden;
+
+        li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // margin-bottom: 0.5rem;
+            padding: 0.28rem 0.3rem 0.28rem 0.7rem;
+            background-image: url("../img/3.png");
+            background-repeat: no-repeat;
+            background-size: 0.46rem;
+            background-position: 0.11rem 1.05rem;
+            .Shopping_wares_pic{
+                width: 2.01rem;
+                height: 2.01rem;
+                border: 0.025rem solid rgb(241, 241, 241);
+                margin-right: 0.22rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .Shopping_wares_alt{
+                width: 4.75rem;
+                height: 2.01rem;
+                padding:  0.07rem 0;
+
+                p:nth-child(1){
+                    font-size: 0.31rem;
+                    color: rgb(102, 102, 102);
+                }
+                p:nth-child(2){
+                    margin-top: 0.18rem;
+                    font-size: 0.27rem;
+                    color: rgb(153, 153, 153);
+
+                } 
+                .Shopping_wares_num{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 0.72rem;
+                    margin-top: 0.11rem;
+
+                    .wares_num_jia{
+                        width: 2.04rem;
+                        height: 0.72rem;
+                        border: 0.01rem solid rgb(238, 238, 238);
+                        display: flex;
+                        
+                        div{
+                            width: 33.333%;
+                            font-size: 0.35rem;
+                            text-align: center;
+                            line-height: 0.66rem;
+                            color: black;
+                        } 
+                        
+                        div:nth-child(1){
+                            background: rgb(250, 250, 250);
+                            font-weight: bold;
+                            color: rgb(205, 205, 205);
+                        }
+                       
+                        div:nth-child(3){
+                            background: rgb(244, 244, 244);
+                            font-weight: bold;
+                            color: rgb(102, 102, 102);
+                        }
+                       
+                    }
+                    a{
+                        height: auto;
+                        i{
+                            font-size: 0.42rem;
+                            color: rgb(102, 102, 102);
+                        }
+                    }
+                }  
+            }
+        }
+    }
+
+    .ShoppSet{
+        width:100vw;
+        // height: 1.11rem;
+        // position: relative;
+        
+
+        .ShoppSettlement{
+            width:100vw;
+            height: 1.11rem;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            z-index: 99;
+            box-shadow: 0 -0.1rem 0.1rem rgb(244, 244, 244);
+            display: flex;
+
+            
+        
+            .ShoppSettlement_foot_jin{
+                width: 33.33%;
+                height: 1.11rem;
+                background-color: #fff;
+                padding:0.15rem 0.35rem;
+        
+                p:nth-child(1){
+                    font-size: 0.3rem;
+                }
+                p:nth-child(2){
+                    font-size: 0.34rem;
+                    color: rgb(255, 87, 34);
+                    font-weight: bold;
+        
+                    span{
+                        color: rgb(153, 153, 153);
+                        font-size: 0.28rem;
+                        font-weight: normal;
+                    }
+                }
+            }
+            .ShoppSettlement_foot_jixu{
+                width: 33.33%;
+                height: 1.11rem;
+                background-color: rgb(244, 244, 244);
+        
+                a{
+                    color: rgb(51, 51, 51);
+                    p{
+                        text-align: center;
+                        line-height: 1.11rem;
+                        font-size: 0.31rem;
+                    }
+                }
+                
+            }
+        
+            .ShoppSettlement_foot_jiesu{
+                width: 33.33%;
+                height: 1.11rem;
+                background-color: #f60;
+        
+                a{
+                    color: #fff;
+                    p{
+                        text-align: center;
+                        line-height: 1.11rem;
+                        font-size: 0.33rem;
+                        font-weight: bold;
+                    }
+                }
+                
+            }
+        
+        }
+    }
+}

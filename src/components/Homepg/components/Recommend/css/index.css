@@ -1,0 +1,30 @@
+.recommend {
+  width: 100%;
+  height: 6rem;
+  padding: 0.17rem 0;
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommend .recommend_left {
+  width: 3.98rem;
+  height: 5.64rem;
+}
+
+.recommend .recommend_left a img {
+  width: 100%;
+  height: 100%;
+}
+
+.recommend .recommend_right {
+  width: 3.98rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.recommend .recommend_right a img {
+  width: 3.98rem;
+  height: 2.8rem;
+}

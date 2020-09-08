@@ -1,0 +1,83 @@
+.Shopping {
+  position: relative;
+  width: 100vw;
+}
+
+.Shopping .Shopping_head {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100vw;
+  height: 1.02rem;
+  background-color: #f2f2f2;
+  padding: 0 0.19rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Shopping .Shopping_head a {
+  color: #919191;
+}
+
+.Shopping .Shopping_head a i {
+  display: block;
+  font-size: 0.42rem;
+  color: #666666;
+}
+
+.Shopping .Shopping_head p {
+  font-size: 0.32rem;
+}
+
+.Shopping .Shopping_land {
+  width: 100%;
+  height: 1.15rem;
+  padding: 0 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Shopping .Shopping_land p {
+  font-size: 0.34rem;
+  color: #212121;
+}
+
+.Shopping .Shopping_land a {
+  display: flex;
+  justify-content: space-between;
+  height: 0.31rem;
+  color: #757575;
+}
+
+.Shopping .Shopping_land a span {
+  font-size: 0.3rem;
+  line-height: 0.32rem;
+  margin-right: 0.15rem;
+}
+
+.Shopping .Shopping_land a i {
+  font-size: 0.32rem;
+}
+
+.Shopping .Shopping_hint {
+  width: 100%;
+  height: 0.72rem;
+  padding: 0.22rem 0.32rem;
+  color: #999999;
+  font-size: 0.26rem;
+  text-align: center;
+}
+
+.Shopping .Shopping_hobby {
+  width: 100%;
+  height: 1.56rem;
+  margin: 0.05rem 0;
+}
+
+.Shopping .Shopping_hobby img {
+  width: 100%;
+  height: 100%;
+}

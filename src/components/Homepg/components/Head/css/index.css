@@ -1,0 +1,55 @@
+.header_top {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 0.9rem;
+  background: #f2f2f2;
+}
+
+.header_top .header_logo {
+  width: 0.55rem;
+  height: 0.37rem;
+}
+
+.header_top .header_search {
+  width: 5.8rem;
+  height: 0.72rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-indent: 0.17rem;
+  background: #fff;
+}
+
+.header_top .header_search i {
+  font-size: 0.33rem;
+  color: #999;
+}
+
+.header_top .header_search span {
+  font-size: 0.33rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.header_top .header_usr {
+  width: 0.4rem;
+  height: 0.45rem;
+}
+
+.header_top .header_usr a {
+  width: 100%;
+  height: 100%;
+  color: #999;
+}
+
+.header_top .header_usr a i {
+  font-size: 0.45rem;
+  display: block;
+}

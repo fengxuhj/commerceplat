@@ -1,0 +1,21 @@
+.milist {
+  width: 100vw;
+  height: 3.39rem;
+}
+
+.milist ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.milist ul li {
+  width: 1.6rem;
+  height: 1.69rem;
+}
+
+.milist ul li a img {
+  width: 100%;
+  height: 100%;
+}

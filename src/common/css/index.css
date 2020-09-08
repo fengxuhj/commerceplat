@@ -1,0 +1,60 @@
+html{
+    font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+    -webkit-font-smoothing: antialiased;  /*chrome、safari  抗锯齿渲染可以使字体看起来会更清晰舒服*/
+    -moz-osx-font-smoothing: grayscale;/*firefox*/
+    -webkit-text-size-adjust: 100%; /* 解决默认会放大文字的问题 */
+    text-size-adjust: none;
+    color: #333;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 12.5vw;
+
+    /*
+        rem 适配
+            我们这次根据设计图的具体尺寸来设置font-size
+
+            根据设计图大小800px ，分为8分，每一份100px
+            设计图上的实际尺寸  100px = 1rem
+
+            100% ：设备宽度
+            50% ：设备宽度的一半
+            100vw ： 设备宽度
+            50vw ：设备宽度的一半
+
+            我们用100vw表示设备宽度 ，根据设计图将设计图分为8份
+            100vw / 8 = 12.5vw   
+
+
+    */ 
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+}
+
+a{
+    /* a标签的下划线 */
+    text-decoration: none;
+}
+
+.APP{
+    /* height: 7075px; */
+    height: auto;
+    
+
+}
+.APP .Homepg{
+    height: auto;
+}

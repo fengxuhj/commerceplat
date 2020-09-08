@@ -1,0 +1,82 @@
+.Search {
+  width: 100vw;
+}
+
+.Search .Search_head {
+  width: 100%;
+  height: 0.9rem;
+  padding: 0.15rem 0.3rem;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Search .Search_head .Search_head_sou {
+  width: 5.9rem;
+  height: 0.57rem;
+  background-color: #fff;
+  border: 0.01rem solid #eaeaea;
+}
+
+.Search .Search_head .Search_head_sou span {
+  display: block;
+  margin-left: 0.23rem;
+  font-size: 0.32rem;
+  line-height: 0.57rem;
+  color: #757575;
+}
+
+.Search .Search_head a i {
+  display: block;
+  font-size: 0.43rem;
+  color: #919191;
+}
+
+.Search .Search_hot {
+  width: 100%;
+  height: 5.96rem;
+}
+
+.Search .Search_hot h3 {
+  width: 100%;
+  padding: 0.3rem 0.34rem;
+  font-size: 0.3rem;
+}
+
+.Search .Search_hot .Search_hot_pic {
+  width: 100%;
+  height: 2.22rem;
+}
+
+.Search .Search_hot .Search_hot_pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.Search .Search_hot .Search_hot_list {
+  padding: 0.22rem 0.34rem;
+}
+
+.Search .Search_hot .Search_hot_list p span {
+  display: inline-block;
+  padding: 0.19rem 0.22rem;
+  margin: 0 0.12rem;
+  font-size: 0.29rem;
+  line-height: 0.6rem;
+  background-color: #f9eaea;
+  border: 0.01rem solid #fca0a7;
+}
+
+.Search .Search_hot .Search_fen {
+  padding: 0.22rem 0.34rem;
+}
+
+.Search .Search_hot .Search_fen p span {
+  display: inline-block;
+  padding: 0.19rem 0.15rem;
+  margin: 0 0.09rem;
+  font-size: 0.22rem;
+  line-height: 0.45rem;
+  background-color: whitesmoke;
+}

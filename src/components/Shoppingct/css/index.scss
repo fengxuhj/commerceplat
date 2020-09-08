@@ -1,0 +1,87 @@
+.Shopping{
+    position: relative;
+    width: 100vw;
+    // height: 19.2rem;
+
+    .Shopping_head{
+        position: sticky;
+        top:0;
+        left: 0;
+        z-index: 99;
+        width: 100vw;
+        height: 1.02rem;
+        background-color: rgb(242, 242, 242);
+        padding: 0 0.19rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: rgb(145, 145, 145);
+
+            i{
+                display: block;
+                font-size: 0.42rem;
+                color: rgb(102, 102, 102);
+            }
+        }
+
+        p{
+            font-size: 0.32rem;
+        }
+    }
+
+    .Shopping_land{
+        width: 100%;
+        height: 1.15rem;
+        padding: 0 0.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p{
+            font-size: 0.34rem;
+            color: rgb(33, 33, 33)
+        }
+
+        a{
+            display: flex;
+            justify-content: space-between;
+            height: 0.31rem;
+            color: rgb(117, 117, 117);
+
+            span{
+                font-size: 0.3rem ;
+                line-height: 0.32rem;
+                margin-right: 0.15rem;
+            }
+
+            i{
+                font-size: 0.32rem;
+            }
+            
+           
+        }
+    }
+
+
+    .Shopping_hint{
+        width: 100%;
+        height: 0.72rem;
+        padding: 0.22rem 0.32rem;
+        color: rgb(153, 153, 153);
+        font-size: 0.26rem;
+        text-align: center;
+    }
+
+    .Shopping_hobby{
+        width: 100%;
+        height: 1.56rem;
+        margin: 0.05rem 0;
+
+        img{
+            width: 100%;
+            height: 100%; 
+        }
+    }
+
+}

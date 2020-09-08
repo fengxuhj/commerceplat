@@ -1,0 +1,50 @@
+.banner {
+  position: relative;
+  height: 3.98rem;
+  margin: 0.02rem 0;
+  background: #ddd;
+  overflow: hidden;
+}
+
+.banner ul {
+  height: 100%;
+  display: flex;
+}
+
+.banner ul li {
+  width: 8rem;
+  height: 100%;
+}
+
+.banner ul li a {
+  display: block;
+  height: 100%;
+}
+
+.banner ul li a img {
+  width: 8rem;
+  height: 100%;
+}
+
+.banner .swiper-pagination {
+  position: absolute;
+  left: 0;
+  bottom: 0.1rem;
+  z-index: 20;
+  width: 100%;
+  text-align: center;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet {
+  display: inline-block;
+  width: 0.2rem;
+  height: 0.2rem;
+  margin: 0 0.1rem;
+  background: white;
+  border-radius: 100%;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #007aff;
+}

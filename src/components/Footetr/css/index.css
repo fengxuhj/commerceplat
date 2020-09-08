@@ -1,0 +1,48 @@
+.foot_haed {
+  /* position: relative; */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 1.04rem;
+}
+
+.foot_haed .foot_bot {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 0.2rem; */
+  width: 100%;
+  height: 1.04rem;
+  /* position: fixed;
+  bottom: 0;
+  left: 0; */
+  background: white;
+}
+
+.foot_haed .foot_bot .footd a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  color: #999;
+  width: 1.5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.foot_haed .foot_bot .footd a i {
+  font-size: 0.46rem;
+}
+
+.foot_haed .foot_bot .footd a span {
+  font-size: 0.25rem;
+}
+
+.foot_haed .foot_bot .footd a .icon-gouwuche em {
+  font-size: 0.4rem;
+  color: #fe6c02;
+}
+
+.foot_haed .foot_bot .footd .active {
+  color: #fe6c02 !important;
+}
