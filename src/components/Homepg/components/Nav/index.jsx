@@ -5,7 +5,7 @@ class index extends Component {
     render() {
         return (
             <nav className="nav">
-                <h2> react实战 - 魔术师 </h2>
+                <h2> react实战 - 电商平台 </h2>
             </nav>
         );
     }
